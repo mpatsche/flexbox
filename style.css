@@ -1,0 +1,74 @@
+
+/* Layout and reset */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+}
+figure {
+    margin: 0;
+}
+.centered {
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 52em;
+}
+
+/* Base styles of menu */
+.menu-section {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid black;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: rgb(129, 153, 116);
+}
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: .6em 1em;
+}
+.menu li a:hover {
+    background: rgb(161, 191, 145);
+}
+
+/* single-nav with flexbox */
+
+
+
+/* card layout */
+body {
+    background: rgb(201, 216, 190);
+}
+.card {
+    background: white;
+    margin-bottom: 2em;	
+}
+.card a {
+    color: black;
+    text-decoration: none;
+}
+.card a:hover {
+    box-shadow: 3px 3px 8px hsl(0, 0%, 60%);
+}
+.card-content {
+    padding: 1.4em;
+}
+.card-content h2 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: normal;
+}
+.card-content p {
+    font-size: 95%;
+}
+
+/* Card layout - flexbox stuff */
